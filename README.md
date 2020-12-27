@@ -6,3 +6,10 @@ please follow the instruction [here](https://github.com/jerlomy4ever/EECS498_Int
 
 ## A*
 ![GIF](https://github.com/jerlomy4ever/EECS498_IntroductionToAlgorithmRobotics/blob/main/hw03/04/astar.gif)
+
+The code is [here](https://github.com/jerlomy4ever/EECS498_IntroductionToAlgorithmRobotics/blob/main/hw03/04/hw3_astar_a.py)
+
+## RRT Connect
+![GIF](https://github.com/jerlomy4ever/EECS498_IntroductionToAlgorithmRobotics/blob/main/hw03/05/rrt.gif)
+
+The code is [here](https://github.com/jerlomy4ever/EECS498_IntroductionToAlgorithmRobotics/blob/main/hw03/05/rrt.py)
