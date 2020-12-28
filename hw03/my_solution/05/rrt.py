@@ -10,7 +10,7 @@ import random
 #### END OF YOUR IMPORTS ####
 
 if not __openravepy_build_doc__:
-    from openravepy import *
+    from openravep
     from numpy import *
 
 def waitrobot(robot):
@@ -142,10 +142,8 @@ def rrt(env,robot,start,goal,step=0.05,renew_scale=15):
 
         ## use renew_temp to decide append or assign new matrix
         ## True:temp_matrix=extend[1:] 
-        ## False:temp_matrix=numpy.concatenate((temp_matrix,extend[1:]), axis=0)
-
-        if renew_temp==True:
-           temp_matrix=extend[1:]
+        ## False:
+    #waitrobot(puma)atrix=extend[1:]
            renew_temp=False
         else:
             temp_matrix=numpy.concatenate((temp_matrix,extend[1:]), axis=0) 
@@ -166,7 +164,8 @@ def smooth(env,path,robot,handles,iterations=150):
         if begin!=end:
             extend=connect(env,robot,path[begin],path[end])
             if numpy.allclose(extend[-1],path[end]):
-                path=numpy.concatenate((path[:begin],extend,path[1+end:]), axis=0)
+                p
+    #waitrobot(puma)ath=numpy.concatenate((path[:begin],extend,path[1+end:]), axis=0)
 
     for i in range(path.shape[0]):
         dof=path[i]
