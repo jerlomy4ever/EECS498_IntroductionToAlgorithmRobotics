@@ -126,7 +126,7 @@ def rrt(env,robot,start,goal,step=0.05,renew_scale=15):
     while True:
         while True:
             cur_goal=numpy.random.uniform(low=lower, high=upper)
-            if numpy.random.uniform()<0.1:
+            if numpy.random.uniform()<0.1: ## bias
                 cur_goal=goal_np
             nearest_point=tree.data[ tree.query(cur_goal)[1]] 
             extend=connect(env,robot,nearest_point,cur_goal,step)
