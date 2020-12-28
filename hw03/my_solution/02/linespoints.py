@@ -44,7 +44,6 @@ if __name__ == "__main__":
     #### YOUR CODE HERE ####
     with env:
         robot.SetTransform([[-1,0,0,-3.4],[0,-1,0,-1.4],[0,0,1,0.05],[0,0,0,1]])
-    #waitrobot(puma)
     handles = []
     l=6
     deg=2*pi/35
