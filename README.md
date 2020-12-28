@@ -13,3 +13,8 @@ The code is [here](https://github.com/jerlomy4ever/EECS498_IntroductionToAlgorit
 ![GIF](https://github.com/jerlomy4ever/EECS498_IntroductionToAlgorithmRobotics/blob/main/hw03/my_solution/05/rrt.gif)
 
 The code is [here](https://github.com/jerlomy4ever/EECS498_IntroductionToAlgorithmRobotics/blob/main/hw03/my_solution/05/rrt.py)
+
+## Kinodynamic RRT
+![GIF](https://github.com/jerlomy4ever/EECS498_IntroductionToAlgorithmRobotics/blob/main/project/dy_rrt.gif)
+
+The code is [here](https://github.com/jerlomy4ever/EECS498_IntroductionToAlgorithmRobotics/blob/main/project/dy_rrt.py)
