@@ -60,6 +60,7 @@ def get_primitives():
     return primitives
 
 def Halton (index,b) :
+    # Halton sequence
     # get a point between 0 and 1
     f=1.0
     r=0.0
